@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+Royal Instruments
+
+{% endblock%}
+
+
+{% block instruments %}
+{% for product in products   %}
+
+
+<div class="col-4">
+    <br />
+    <div class="card">
+        <img src="https://via.placeholder.com/150" alt="placeholder">
+        <h2>{{ product }}</h2>
+        <p>Tous nos {{product}} sont fait à la main</p>
+        <button type="button">Acheter</button>
+    </div>
+
+</div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,14 @@
+{
+    "name": "salazhar/public",
+    "description": "Quête Twig pour la WCS",
+    "type": "project",
+    "authors": [
+        {
+            "name": "salazhar",
+            "email": "canoine.cyril@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.12"
+    }
+}
